@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Build It Lab helps university engineering students complete final year projects — IoT devices, technical reports, and web development." />
+  <title>Build It Lab | Final Year Project Support for Engineering Students</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="logo" aria-label="Build It Lab home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Build It <strong>Lab</strong></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact" class="btn btn-nav">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Final Year Project Support</p>
+          <h1 id="hero-heading">Turn your engineering project idea into a <span class="highlight">finished deliverable</span></h1>
+          <p class="hero-lead">
+            Build It Lab partners with university students to design IoT systems, write professional project reports, and build project websites — so you graduate with confidence.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <ul class="hero-stats" aria-label="Key highlights">
+            <li>
+              <span class="stat-value">IoT</span>
+              <span class="stat-label">Hardware &amp; firmware</span>
+            </li>
+            <li>
+              <span class="stat-value">Reports</span>
+              <span class="stat-label">Documentation</span>
+            </li>
+            <li>
+              <span class="stat-value">Web</span>
+              <span class="stat-label">Project sites</span>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <figure class="hero-image-wrap">
+            <img
+              src="images/hero-iot.png"
+              alt="IoT prototype on breadboard with ESP32, sensors, and display"
+              width="640"
+              height="360"
+              loading="eager"
+              fetchpriority="high"
+            />
+          </figure>
+          <div class="device-card device-card-overlay" aria-hidden="true">
+            <div class="device-header">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <code class="device-title">project_status.json</code>
+            </div>
+            <pre class="device-body"><span class="code-key">"student"</span>: <span class="code-str">"Engineering Final Year"</span>,
+<span class="code-key">"phase"</span>: <span class="code-str">"prototype_ready"</span>,
+<span class="code-key">"deliverables"</span>: [
+  <span class="code-str">"IoT prototype"</span>,
+  <span class="code-str">"technical report"</span>,
+  <span class="code-str">"project website"</span>
+],
+<span class="code-key">"status"</span>: <span class="code-success">"on_track"</span></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <figure class="about-image">
+          <img
+            src="images/service-iot.png"
+            alt="Student building an IoT final year project prototype"
+            width="480"
+            height="480"
+            loading="lazy"
+          />
+        </figure>
+        <div class="about-content">
+          <p class="section-label">About Us</p>
+          <h2 id="about-heading">Built for students who need more than theory</h2>
+          <p>
+            Final year projects are demanding — tight deadlines, supervisor expectations, and the pressure to demonstrate real engineering skill. Build It Lab exists to bridge that gap.
+          </p>
+          <p>
+            We work alongside university engineering students across disciplines to plan, build, document, and present projects that meet academic standards. Whether you are stuck at the prototype stage or need a polished report before submission, we bring structure and hands-on expertise to your workflow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" aria-label="IoT project examples">
+      <div class="container">
+        <div class="gallery-strip">
+          <img src="images/hero-iot.png" alt="" width="320" height="180" loading="lazy" aria-hidden="true" />
+          <img src="images/service-iot.png" alt="" width="320" height="180" loading="lazy" aria-hidden="true" />
+          <img src="images/service-web.png" alt="" width="320" height="180" loading="lazy" aria-hidden="true" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">What We Do</p>
+          <h2 id="services-heading">End-to-end support for your final year project</h2>
+          <p class="section-intro">From concept to submission-ready deliverables, we cover the technical work students struggle with most.</p>
+        </header>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-thumb">
+              <img src="images/service-iot.png" alt="IoT device prototype with microcontroller and sensors" width="400" height="220" loading="lazy" />
+            </div>
+            <h3>IoT Device Development</h3>
+            <p>We design and build connected prototypes — sensors, microcontrollers, cloud dashboards, and mobile integrations tailored to your project topic.</p>
+            <ul>
+              <li>Arduino, ESP32, Raspberry Pi</li>
+              <li>Sensor integration &amp; data logging</li>
+              <li>MQTT, Wi-Fi, and Bluetooth setups</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-thumb">
+              <img src="images/service-report.png" alt="Engineering project report documents and research materials" width="400" height="220" loading="lazy" />
+            </div>
+            <h3>Project Report Writing</h3>
+            <p>Structured, supervisor-ready documentation including chapters, methodology, results analysis, and references aligned with your department format.</p>
+            <ul>
+              <li>Chapters 1–5 structuring</li>
+              <li>Literature review support</li>
+              <li>Diagrams, tables &amp; formatting</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <div class="service-thumb">
+              <img src="images/service-web.png" alt="Project website and IoT dashboard on laptop and phone" width="400" height="220" loading="lazy" />
+            </div>
+            <h3>Website Development</h3>
+            <p>Professional project websites and dashboards to showcase your work during defense presentations and portfolio building.</p>
+            <ul>
+              <li>Responsive landing pages</li>
+              <li>Live data dashboards</li>
+              <li>Deployment guidance</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">How It Works</p>
+          <h2 id="process-heading">A clear path from idea to defense day</h2>
+        </header>
+        <ol class="process-steps">
+          <li class="process-step">
+            <span class="step-num" aria-hidden="true">01</span>
+            <div>
+              <h3>Discovery Call</h3>
+              <p>Share your project topic, deadline, and department requirements. We map scope and deliverables together.</p>
+            </div>
+          </li>
+          <li class="process-step">
+            <span class="step-num" aria-hidden="true">02</span>
+            <div>
+              <h3>Planning &amp; Proposal</h3>
+              <p>We outline milestones, hardware lists, report structure, and timelines you can present to your supervisor.</p>
+            </div>
+          </li>
+          <li class="process-step">
+            <span class="step-num" aria-hidden="true">03</span>
+            <div>
+              <h3>Build &amp; Document</h3>
+              <p>Our team develops prototypes, drafts report sections, and iterates based on your feedback at each checkpoint.</p>
+            </div>
+          </li>
+          <li class="process-step">
+            <span class="step-num" aria-hidden="true">04</span>
+            <div>
+              <h3>Handoff &amp; Defense Prep</h3>
+              <p>You receive working hardware, source code, formatted documentation, and guidance for demonstration and Q&amp;A.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section why-us" id="why-us" aria-labelledby="why-heading">
+      <div class="container why-grid">
+        <header>
+          <p class="section-label">Why Build It Lab</p>
+          <h2 id="why-heading">Student-focused. Engineering-led. Deadline-aware.</h2>
+        </header>
+        <ul class="why-list">
+          <li>
+            <strong>Academic alignment</strong>
+            <span>Deliverables structured to match typical final year project rubrics and supervisor expectations.</span>
+          </li>
+          <li>
+            <strong>Practical prototypes</strong>
+            <span>Working devices you can demonstrate live — not just slides and simulations.</span>
+          </li>
+          <li>
+            <strong>Transparent collaboration</strong>
+            <span>Regular updates so you understand your project deeply before defense.</span>
+          </li>
+          <li>
+            <strong>Multi-discipline coverage</strong>
+            <span>Electrical, computer, mechatronics, and related engineering programs.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cta-band" aria-labelledby="cta-heading">
+      <div class="container cta-inner">
+        <h2 id="cta-heading">Ready to move your project forward?</h2>
+        <p>Tell us your topic and deadline — we will respond with a tailored plan within 24 hours.</p>
+        <a href="#contact" class="btn btn-primary">Start Your Project</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-label">Contact</p>
+          <h2 id="contact-heading">Let's talk about your project</h2>
+          <p>Fill out the form and we will get back to you with next steps. Include your university, department, and submission date if you know it.</p>
+          <address class="contact-details">
+            <p><strong>Email</strong> <a href="mailto:hello@builditlab.com">hello@builditlab.com</a></p>
+            <p><strong>WhatsApp</strong> <a href="https://wa.me/2347060438205" target="_blank" rel="noopener noreferrer">+234 706 043 8205</a></p>
+            <p><strong>Phone</strong> <a href="tel:+2347060438205">+234 706 043 8205</a></p>
+            <p><strong>Hours</strong> Mon – Sat, 9:00 AM – 6:00 PM</p>
+          </address>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Ada Okonkwo" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@university.edu" />
+          </div>
+          <div class="form-row">
+            <label for="university">University &amp; Department</label>
+            <input type="text" id="university" name="university" required placeholder="e.g. UNILAG — Electrical Engineering" />
+          </div>
+          <div class="form-row">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="iot">IoT Device Development</option>
+              <option value="report">Project Report Writing</option>
+              <option value="web">Website Development</option>
+              <option value="full">Full Project Package</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Briefly describe your project topic, timeline, and what you need help with."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <a href="#top" class="logo logo-footer">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Build It <strong>Lab</strong></span>
+      </a>
+      <p class="footer-tagline">Helping engineering students build, document, and defend final year projects.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> Build It Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
