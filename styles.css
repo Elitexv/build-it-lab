@@ -709,6 +709,25 @@ a:hover {
   color: var(--success);
 }
 
+.form-note.error {
+  color: #f87171;
+}
+
+.form-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
 /* Footer */
 .site-footer {
   padding: 3rem 0 2rem;
